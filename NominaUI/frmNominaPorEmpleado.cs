@@ -23,7 +23,6 @@ namespace NominaUI
         {
             frmReportes frm = new frmReportes("NominaPorFecha", dtpFecha.Value, 
                 int.Parse(cbEmpleado.SelectedValue.ToString()));
-            frm.Show();
         }
 
         private void frmNominaPorEmpleado_Load(object sender, EventArgs e)

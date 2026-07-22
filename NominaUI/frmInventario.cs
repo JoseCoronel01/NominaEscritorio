@@ -162,7 +162,6 @@ namespace NominaUI
         private void btnPreliminar_Click(object sender, EventArgs e)
         {
             frmReportes frm = new frmReportes("Inventario");
-            frm.Show();
         }
     }
 }
